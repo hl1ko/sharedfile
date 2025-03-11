@@ -51,7 +51,7 @@ void Q1()
     double radian = 0;
     const double PI = 3.14159265;
     cout << "Degree\t\tSin\t\tCos\n";
-    for(int degree = 0; degree <=360;degree = degree + 10){
+    for(int degree = 0; degree <=360;degree = degree+10){
         radian = degree * PI / 180;
         cout << degree << "\t\t" << sin(radian) << "\t\t" << cos(radian) << endl;
     }
